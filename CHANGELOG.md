@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- [v0.3.0] Propagatation of the `klee-analysis` feature, allowing analysis of embedded applications using `cargo-klee`.
+
 ## [v0.2.0] - 2017-03-07
 
 ### Changed

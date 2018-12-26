@@ -1,7 +1,8 @@
 [package]
 authors = [
 	"Jorge Aparicio <japaricious@gmail.com>",
-	"Jonathan 'theJPster' Pallant <github@thejpster.org.uk>"
+	"Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
+	"Per Lindgren <per.lindgren@ltu.se>"
 ]
 description = "Volatile access to memory mapped hardware registers"
 documentation = "https://docs.rs/volatile-register"
@@ -13,3 +14,6 @@ version = "0.2.0"
 
 [dependencies]
 vcell = "0.1.0"
+
+[features]
+klee-analysis = ["vcell/klee-analysis"]
