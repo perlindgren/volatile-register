@@ -12,6 +12,9 @@ name = "volatile-register"
 repository = "https://github.com/japaric/volatile-register"
 version = "0.3.0"
 
+[patch.crates-io]
+vcell = { git = "https://github.com/perlindgren/vcell.git" }
+
 [dependencies]
 vcell = "0.2.0"
 
